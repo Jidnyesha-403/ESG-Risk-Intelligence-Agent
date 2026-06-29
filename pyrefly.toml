@@ -1,0 +1,10 @@
+# Pyrefly configuration for ESG Risk Intelligence Agent
+# Directs Pyrefly to use the project's actual Python 3.14 interpreter
+# so it can resolve streamlit, plotly, langchain, and all other installed packages.
+# See: https://github.com/facebook/pyrefly
+
+python_interpreter = "C:/Users/jd403/AppData/Local/Programs/Python/Python314/python.exe"
+
+# Tell Pyrefly where to find the project's source roots so that
+# `src.agents.*` and `src.utils.*` resolve correctly.
+source_directories = ["."]
